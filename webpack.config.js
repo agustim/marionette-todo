@@ -2,6 +2,9 @@ var webpack = require('webpack');
 
 module.exports = {
   entry: './app/driver.js',
+  externals: {
+    'jquery': '$'
+  },
   module: {
     loaders: [
       {
@@ -27,4 +30,3 @@ module.exports = {
     root: __dirname + '/node_modules'
   }
 };
-
