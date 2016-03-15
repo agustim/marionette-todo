@@ -3,7 +3,7 @@
 == Install
 
 * npm install
-* node_modules/.bin/webpack
+* npm run build 
 
 == Execute
 

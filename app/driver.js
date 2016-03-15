@@ -1,3 +1,5 @@
+_ = require('underscore');
+var Backbone = require('backbone');
 var Marionette = require('backbone.marionette');
 var TodoView = require('./views/layout');
 var ToDoModel = require('./models/todo');
